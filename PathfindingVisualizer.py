@@ -63,6 +63,6 @@ while run:
             pygame.draw.rect(scr, (255, 255, 255), [wall[0], wall[1], square_size, square_size])
     if way is not None:
         for square in way:
-            pygame.draw.rect(scr, (0, 255, 0),  [square[0] * square_size * 0.9, square[1] * square_size, square_size, square_size])
+            pygame.draw.rect(scr, (0, 255, 0),  [square[0] * square_size, square[1] * square_size, square_size, square_size])
     pygame.display.update()
 pygame.quit()
